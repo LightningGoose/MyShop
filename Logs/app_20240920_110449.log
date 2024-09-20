@@ -1,0 +1,78 @@
+2024-09-20 11:04:51.009 +02:00 [INF] User profile is available. Using 'C:\Users\Martin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 11:04:51.131 +02:00 [INF] Now listening on: https://localhost:7129
+2024-09-20 11:04:51.133 +02:00 [INF] Now listening on: http://localhost:5259
+2024-09-20 11:04:51.137 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 11:04:51.139 +02:00 [INF] Hosting environment: Development
+2024-09-20 11:04:51.141 +02:00 [INF] Content root path: C:\Users\Martin\MyShop
+2024-09-20 11:04:51.334 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/ - null null
+2024-09-20 11:04:51.362 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-09-20 11:04:51.372 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-09-20 11:04:51.381 +02:00 [INF] Executing ViewResult, running view Index.
+2024-09-20 11:04:51.451 +02:00 [INF] Executed ViewResult - view Index executed in 70.9549ms.
+2024-09-20 11:04:51.453 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 81.4187ms
+2024-09-20 11:04:51.454 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-09-20 11:04:51.457 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/ - 200 null text/html; charset=utf-8 124.1775ms
+2024-09-20 11:04:51.485 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/js/jquery.min.js - null null
+2024-09-20 11:04:51.485 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/pizza.jpg - null null
+2024-09-20 11:04:51.485 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/fishandchips.jpg - null null
+2024-09-20 11:04:51.485 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/js/bootstrap.js - null null
+2024-09-20 11:04:51.494 +02:00 [INF] The file /images/fishandchips.jpg was not modified
+2024-09-20 11:04:51.494 +02:00 [INF] The file /images/pizza.jpg was not modified
+2024-09-20 11:04:51.494 +02:00 [INF] The file /js/bootstrap.js was not modified
+2024-09-20 11:04:51.494 +02:00 [INF] The file /js/jquery.min.js was not modified
+2024-09-20 11:04:51.496 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/js/jquery.min.js - 304 null text/javascript 10.8473ms
+2024-09-20 11:04:51.496 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/fishandchips.jpg - 304 null image/jpeg 10.8477ms
+2024-09-20 11:04:51.496 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/js/bootstrap.js - 304 null text/javascript 10.8477ms
+2024-09-20 11:04:51.496 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/pizza.jpg - 304 null image/jpeg 10.8489ms
+2024-09-20 11:04:51.506 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/tacos.jpg - null null
+2024-09-20 11:04:51.509 +02:00 [INF] The file /images/tacos.jpg was not modified
+2024-09-20 11:04:51.510 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/tacos.jpg - 304 null image/jpeg 3.9219ms
+2024-09-20 11:04:56.586 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/Item/Table - null null
+2024-09-20 11:04:56.587 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-09-20 11:04:56.595 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller MyShop.Controllers.ItemController (MyShop).
+2024-09-20 11:04:56.698 +02:00 [INF] Executing ViewResult, running view Table.
+2024-09-20 11:04:56.717 +02:00 [INF] Executed ViewResult - view Table executed in 20.2967ms.
+2024-09-20 11:04:56.718 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Table (MyShop) in 122.189ms
+2024-09-20 11:04:56.718 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-09-20 11:04:56.725 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/Item/Table - 200 null text/html; charset=utf-8 139.1707ms
+2024-09-20 11:04:56.766 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/chickenleg.jpg - null null
+2024-09-20 11:04:56.766 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/frenchfries.jpg - null null
+2024-09-20 11:04:56.767 +02:00 [INF] The file /images/chickenleg.jpg was not modified
+2024-09-20 11:04:56.767 +02:00 [INF] The file /images/frenchfries.jpg was not modified
+2024-09-20 11:04:56.768 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/chickenleg.jpg - 304 null image/jpeg 1.37ms
+2024-09-20 11:04:56.768 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/frenchfries.jpg - 304 null image/jpeg 1.5884ms
+2024-09-20 11:04:56.776 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/coke.jpg - null null
+2024-09-20 11:04:56.776 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/cider.jpg - null null
+2024-09-20 11:04:56.776 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/images/ribs.jpg - null null
+2024-09-20 11:04:56.777 +02:00 [INF] The file /images/ribs.jpg was not modified
+2024-09-20 11:04:56.777 +02:00 [INF] The file /images/coke.jpg was not modified
+2024-09-20 11:04:56.777 +02:00 [INF] The file /images/cider.jpg was not modified
+2024-09-20 11:04:56.777 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/coke.jpg - 304 null image/jpeg 1.2669ms
+2024-09-20 11:04:56.777 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/cider.jpg - 304 null image/jpeg 1.3514ms
+2024-09-20 11:04:56.777 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/images/ribs.jpg - 304 null image/jpeg 1.2414ms
+2024-09-20 11:04:59.132 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/Item/Create - null null
+2024-09-20 11:04:59.134 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-09-20 11:04:59.136 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller MyShop.Controllers.ItemController (MyShop).
+2024-09-20 11:04:59.139 +02:00 [INF] Executing ViewResult, running view Create.
+2024-09-20 11:04:59.212 +02:00 [INF] Executed ViewResult - view Create executed in 74.2987ms.
+2024-09-20 11:04:59.212 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Create (MyShop) in 75.716ms
+2024-09-20 11:04:59.212 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-09-20 11:04:59.213 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/Item/Create - 200 null text/html; charset=utf-8 80.9732ms
+2024-09-20 11:05:05.213 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5259/Item/Create - application/x-www-form-urlencoded 224
+2024-09-20 11:05:05.215 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-09-20 11:05:05.235 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).
+2024-09-20 11:05:05.280 +02:00 [WRN] [ItemController] Item creation failed {"ItemId":0,"Name":"asd","Price":0,"Description":"asd","ImageUrl":null,"OrderItems":null,"$type":"Item"}
+2024-09-20 11:05:05.282 +02:00 [INF] Executing ViewResult, running view Create.
+2024-09-20 11:05:05.289 +02:00 [INF] Executed ViewResult - view Create executed in 6.4654ms.
+2024-09-20 11:05:05.289 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Create (MyShop) in 53.2754ms
+2024-09-20 11:05:05.289 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-09-20 11:05:05.289 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5259/Item/Create - 200 null text/html; charset=utf-8 76.0704ms
+2024-09-20 11:05:15.265 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5259/Item/Create - application/x-www-form-urlencoded 230
+2024-09-20 11:05:15.265 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-09-20 11:05:15.266 +02:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).
+2024-09-20 11:05:15.274 +02:00 [WRN] [ItemController] Item creation failed {"ItemId":0,"Name":"###","Price":0,"Description":"asd","ImageUrl":null,"OrderItems":null,"$type":"Item"}
+2024-09-20 11:05:15.274 +02:00 [INF] Executing ViewResult, running view Create.
+2024-09-20 11:05:15.277 +02:00 [INF] Executed ViewResult - view Create executed in 2.9711ms.
+2024-09-20 11:05:15.277 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Create (MyShop) in 11.726ms
+2024-09-20 11:05:15.278 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Create (MyShop)'
+2024-09-20 11:05:15.278 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5259/Item/Create - 200 null text/html; charset=utf-8 13.5939ms

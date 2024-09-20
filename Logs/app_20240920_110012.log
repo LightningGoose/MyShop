@@ -1,0 +1,39 @@
+2024-09-20 11:00:14.665 +02:00 [INF] User profile is available. Using 'C:\Users\Martin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-20 11:00:14.860 +02:00 [INF] Now listening on: https://localhost:7129
+2024-09-20 11:00:14.862 +02:00 [INF] Now listening on: http://localhost:5259
+2024-09-20 11:00:14.868 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-20 11:00:14.870 +02:00 [INF] Hosting environment: Development
+2024-09-20 11:00:14.872 +02:00 [INF] Content root path: C:\Users\Martin\MyShop
+2024-09-20 11:00:15.119 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/ - null null
+2024-09-20 11:00:15.154 +02:00 [INF] Executing endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-09-20 11:00:15.170 +02:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyShop.Controllers.HomeController (MyShop).
+2024-09-20 11:00:15.183 +02:00 [INF] Executing ViewResult, running view Index.
+2024-09-20 11:00:15.271 +02:00 [INF] Executed ViewResult - view Index executed in 90.3998ms.
+2024-09-20 11:00:15.273 +02:00 [INF] Executed action MyShop.Controllers.HomeController.Index (MyShop) in 102.721ms
+2024-09-20 11:00:15.274 +02:00 [INF] Executed endpoint 'MyShop.Controllers.HomeController.Index (MyShop)'
+2024-09-20 11:00:15.277 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/ - 200 null text/html; charset=utf-8 160.3927ms
+2024-09-20 11:00:23.035 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/Item/Table - null null
+2024-09-20 11:00:23.040 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-09-20 11:00:23.048 +02:00 [INF] Route matched with {action = "Table", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Table() on controller MyShop.Controllers.ItemController (MyShop).
+2024-09-20 11:00:23.141 +02:00 [INF] Executing ViewResult, running view Table.
+2024-09-20 11:00:23.160 +02:00 [INF] Executed ViewResult - view Table executed in 20.1086ms.
+2024-09-20 11:00:23.160 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Table (MyShop) in 111.9335ms
+2024-09-20 11:00:23.160 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Table (MyShop)'
+2024-09-20 11:00:23.167 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/Item/Table - 200 null text/html; charset=utf-8 132.0725ms
+2024-09-20 11:00:24.283 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5259/Item/Update/1 - null null
+2024-09-20 11:00:24.286 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-09-20 11:00:24.299 +02:00 [INF] Route matched with {action = "Update", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32) on controller MyShop.Controllers.ItemController (MyShop).
+2024-09-20 11:00:24.399 +02:00 [INF] Executing ViewResult, running view Update.
+2024-09-20 11:00:24.461 +02:00 [INF] Executed ViewResult - view Update executed in 62.575ms.
+2024-09-20 11:00:24.461 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Update (MyShop) in 162.0327ms
+2024-09-20 11:00:24.461 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-09-20 11:00:24.462 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5259/Item/Update/1 - 200 null text/html; charset=utf-8 179.191ms
+2024-09-20 11:00:28.351 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5259/Item/Update/1 - application/x-www-form-urlencoded 353
+2024-09-20 11:00:28.353 +02:00 [INF] Executing endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-09-20 11:00:28.368 +02:00 [INF] Route matched with {action = "Update", controller = "Item"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(MyShop.Models.Item) on controller MyShop.Controllers.ItemController (MyShop).
+2024-09-20 11:00:28.403 +02:00 [WRN] [ItemController] Item update failed {"ItemId":1,"Name":"Pizza","Price":0,"Description":"Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.","ImageUrl":"/images/pizza.jpg","OrderItems":null,"$type":"Item"}
+2024-09-20 11:00:28.405 +02:00 [INF] Executing ViewResult, running view Update.
+2024-09-20 11:00:28.410 +02:00 [INF] Executed ViewResult - view Update executed in 4.8717ms.
+2024-09-20 11:00:28.410 +02:00 [INF] Executed action MyShop.Controllers.ItemController.Update (MyShop) in 41.7016ms
+2024-09-20 11:00:28.410 +02:00 [INF] Executed endpoint 'MyShop.Controllers.ItemController.Update (MyShop)'
+2024-09-20 11:00:28.410 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5259/Item/Update/1 - 200 null text/html; charset=utf-8 59.3134ms
